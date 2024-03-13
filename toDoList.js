@@ -3,12 +3,6 @@ let inputTasks = document.getElementById("inputTasks");
 let btnTasks = document.getElementById("btnTasks");
 let containerTask = document.getElementById("containerTask");
 
-const task = (e) => {
-  inputTasks.addEventListener("change", (event) => {
-    let text = event.target.value;
-  });
-};
-
 btnTasks.onclick = (e) => {
   e.preventDefault();
   let divTask = document.createElement("div");
